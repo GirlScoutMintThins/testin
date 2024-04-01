@@ -31,10 +31,10 @@ Library.UnloadCallback = function()
 	getgenv().AirHub = nil
 end
 
-local MainFrame = nil
+local MainFrame = Library:CreateWindow({
 	Name = "AirHub",
 	Themeable = {
-		Image = "7059346386",
+		Image = "0",
 		Info = "Made by Exunys\nPowered by Pepsi's UI Library",
 		Credit = false
 	},
