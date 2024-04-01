@@ -31,7 +31,7 @@ Library.UnloadCallback = function()
 	getgenv().AirHub = nil
 end
 
-local MainFrame = Library:CreateWindow({
+
 	Name = "AirHub",
 	Themeable = {
 		Image = "7059346386",
