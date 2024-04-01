@@ -25,7 +25,7 @@ local Parts, Fonts, TracersType = {"Head", "HumanoidRootPart", "Torso", "Left Ar
 
 --// Frame
 
-Library.UnloadCallback = function()
+
 	Aimbot.Functions:Exit()
 	WallHack.Functions:Exit()
 	getgenv().AirHub = nil
